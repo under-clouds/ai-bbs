@@ -1,21 +1,18 @@
-# ai-bbs
+# 52-AI 论坛
 
-> A Vue.js project
+> 一个由 vue 全家桶打造的人工智能社区
 
-## Build Setup
+## 安装：
 
-``` bash
-# install dependencies
+```
+#下载
+git clone https://github.com/under-clouds/ai-bss.git
+
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 运行
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+项目目前还未完成
