@@ -13,7 +13,7 @@
         <div class="post" v-for="(item,index) in topicsList">
           <img :src="item.author.avatar_url" alt="" width="30px" height="30px" class="avatar">
           <span class="post-tab">{{ item.tab }}</span>
-          <router-link to="/">{{item.title}}</router-link>
+          <router-link :to="{name:'post',params:{id:item.id}}">{{item.title}}</router-link>
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@
 <style>
   #topic {
     display: inline-block;
-    width:calc(99% - 300px - 4px);
+    width:calc(98% - 300px - 4px);
     padding:4px;
   }
   #tab {
@@ -70,10 +70,14 @@
     align-items: center;
     padding: 10px;
     height: 30px;
-    border-bottom: 1px solid #f0f0f0
+    border-bottom: 1px solid #f0f0f0;
+    width: auto;
   }
-  .post router-link {
+  .post a {
     color: #333;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
   }
   .avatar {
     border-radius: 3px;

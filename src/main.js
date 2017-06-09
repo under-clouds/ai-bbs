@@ -6,6 +6,7 @@ import router from './router'
 import axios from 'axios'
 import store from './vuex/index'
 import './assets/reset.css'
+import 'github-markdown-css'
 
 Vue.prototype.$http = axios
 Vue.config.productionTip = false
