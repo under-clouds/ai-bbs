@@ -78,7 +78,7 @@
   }
   #post-attr {
     font-size: 12px;
-    color: #838383
+    color: #838383;
   }
   #post-content {
     background: #fff;

@@ -5,6 +5,10 @@
       <button>登录</button>
       <button>注册</button>
     </div>
+    <div id="action">
+      <router-link to="/topic/create">发布话题</router-link>
+      <router-link to="/message">查看消息</router-link>
+    </div>
     <div id="ads">
       <img src="https://dn-cnode.qbox.me/Fh-dDBC360-fT8gaefK0p_hmx_zv" alt="">
       <img src="https://dn-cnode.qbox.me/Fn4D6BhOTz1IswvmzeZ1q7QW1ls_" alt="">
@@ -54,6 +58,25 @@
   #user-panel button:hover {
     background: #2f96b4;
   }
+  #action {
+    margin-top: 12px;
+    padding: 16px;
+    background: #fff;
+  }
+  #action a {
+    margin-left: 8px;
+    background: #80bd01;
+    border: none;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 3px;
+    line-height: 2em;
+    vertical-align: middle;
+    transition-duration: 0.25s;
+  }
+  #action a:hover {
+    background: #6ba44e;
+  }
   #ads {
     margin: 12px 0;
     background: #fff;
@@ -72,7 +95,7 @@
   }
   #friends-header {
     padding: 12px 8px;
-    background: #eee;
+    background: #f6f6f6;
     font-size: 15px;
   }
 </style>

@@ -43,7 +43,7 @@
     padding:4px;
   }
   #tab {
-    background: #eee;
+    background: #f6f6f6;
     -webkit-border-radius: 3px 3px 0 0;
     -moz-border-radius: 3px 3px 0 0;
     border-radius: 3px 3px 0 0;

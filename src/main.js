@@ -7,6 +7,7 @@ import axios from 'axios'
 import store from './vuex/index'
 import './assets/reset.css'
 import 'github-markdown-css'
+import 'simplemde-theme-base/dist/simplemde-theme-base.min.css'
 
 Vue.prototype.$http = axios
 Vue.config.productionTip = false
